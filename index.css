@@ -1,0 +1,257 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 1px 4px 2px #29363c;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+ a{
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+  }
+
+  .home-section {
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 20%;
+    background-image: url("media/images/programmer.jfif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+  .logo img{
+    position: absolute;
+    top: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0px 10px;
+  }
+
+  .intro{
+      padding : 10px;
+      font-size: 60px;
+      color: white;
+  }
+
+  .fXsNjL {
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0.7rem 2.5rem;
+    color: rgb(255, 255, 255);
+}
+  .view-cv {
+    background: transparent;
+    color: rgb(0, 85, 84);
+    border: 3px solid rgb(0, 85, 84);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.hire-me {
+    background: rgb(0, 85, 84);
+    margin-right: 20px;
+    border: 3px solid rgb(0, 85, 84);
+    font-weight: bold;
+}
+
+.social-links{
+    padding-top: 5px;
+}
+.social-links i{
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.social-links i:hover{
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 25px;
+}
+
+.about-section{
+    height: 60vh;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.about-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+
+.about-me-container{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-me-title {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.about-me-text{
+    padding: 10px;
+}
+
+
+.skills-section{
+    height: 60vh;
+    background-color: white;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.skills-title, .projects-title{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.skills-row {
+display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .skills-column {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+  }
+
+  .skill-container,.project-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.programming-logo{
+    width: 60px;
+    height: 60px;
+}
+
+.project-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects-section{
+    height: 80vh;
+    background-color: white;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+/* Float four columns side by side */
+.projects-column {
+    float: left;
+    width: 33.33%;
+    padding: 10px 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .projects-row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .projects-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .projects-column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .projects-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding:20px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  .project-links{
+      padding:0px;
+      font-weight: normal;
+  }
+
+  .project-content{
+      padding: 2px 2px;
+  }
+
+  .contactme-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactme-section{
+    height: 100vh;
+    background-color: white;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+footer{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.footer-heart-text{
+    padding: 10px;
+}
+.heart{
+    color: red
+}
