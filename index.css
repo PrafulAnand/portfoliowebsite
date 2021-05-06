@@ -167,9 +167,6 @@ display: grid;
 
 .project-container{
     width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .projects-section{
